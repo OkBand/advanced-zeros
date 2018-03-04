@@ -2,7 +2,9 @@ const assert = require('assert');
 Object.freeze(assert);
 const getZerosCount = require('./src/index');
 
+
 describe('Zeros', () => {
+
   it('0', () => {
     const zerosCount = getZerosCount(10, 10);
     assert.equal(zerosCount, 2);
